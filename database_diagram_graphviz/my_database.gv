@@ -1,0 +1,557 @@
+digraph my_database {
+	graph [overlap=false splines=true]
+	node [shape=plaintext]
+	c_turnover_category [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Číselník kategorií obratu" BGCOLOR="#FFFF99" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="c_turnover_category" COLSPAN= "2"><b>c_turnover_category</b></TD></TR><TR>
+        <TD PORT="c_turnover_categoryturnover_category_code" ALIGN="LEFT">turnover_category_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_turnover_categoryturnover_category" ALIGN="LEFT">turnover_category</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_turnover_categoryactive_flag" ALIGN="LEFT">active_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_turnover_categoryend_date" ALIGN="LEFT">end_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR></TABLE>> style=rounded]
+	c_emp_category [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Číselník kategorií počtu zaměstnanců" BGCOLOR="#FFFF99" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="c_emp_category" COLSPAN= "2"><b>c_emp_category</b></TD></TR><TR>
+        <TD PORT="c_emp_categoryemp_category_code" ALIGN="LEFT">emp_category_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_emp_categoryemp_category" ALIGN="LEFT">emp_category</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_emp_categoryactive_flag" ALIGN="LEFT">active_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_emp_categoryend_date" ALIGN="LEFT">end_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR></TABLE>> style=rounded]
+	c_rel_type [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Číselník typů vazeb" BGCOLOR="#FFFF99" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="c_rel_type" COLSPAN= "2"><b>c_rel_type</b></TD></TR><TR>
+        <TD PORT="c_rel_typerel_type_code" ALIGN="LEFT">rel_type_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_rel_typerel_type" ALIGN="LEFT">rel_type</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_rel_typerel_type_category_code" ALIGN="LEFT">rel_type_category_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_rel_typerel_type_category" ALIGN="LEFT">rel_type_category</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_rel_typerel_type_description" ALIGN="LEFT">rel_type_description</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR></TABLE>> style=rounded]
+	subject_fact [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Fakta subjektu" BGCOLOR="#99FFCC" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="subject_fact" COLSPAN= "2"><b>subject_fact</b></TD></TR><TR>
+        <TD PORT="subject_factfact_id" ALIGN="LEFT">fact_id</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factsid" ALIGN="LEFT">sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factico" ALIGN="LEFT">ico</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factint_org_sid" ALIGN="LEFT">int_org_sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factstart_date" ALIGN="LEFT">start_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factend_date" ALIGN="LEFT">end_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factfact_type_code" ALIGN="LEFT">fact_type_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factfact_value" ALIGN="LEFT">fact_value</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_facteffective_date" ALIGN="LEFT">effective_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factactive_flag" ALIGN="LEFT">active_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_factsource_code" ALIGN="LEFT">source_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR></TABLE>> style=rounded]
+	internal_organization [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Interní organizace" BGCOLOR="#99FFCC" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="internal_organization" COLSPAN= "2"><b>internal_organization</b></TD></TR><TR>
+        <TD PORT="internal_organizationint_org_sid" ALIGN="LEFT">int_org_sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationint_org_name" ALIGN="LEFT">int_org_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationint_org_alternative_name" ALIGN="LEFT">int_org_alternative_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationint_org_id" ALIGN="LEFT">int_org_id</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationint_org_type_code" ALIGN="LEFT">int_org_type_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationpremise_type_code" ALIGN="LEFT">premise_type_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationestablishment_date" ALIGN="LEFT">establishment_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationabolishment_date" ALIGN="LEFT">abolishment_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationsid" ALIGN="LEFT">sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationico" ALIGN="LEFT">ico</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationorganization_name" ALIGN="LEFT">organization_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationeffective_date" ALIGN="LEFT">effective_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationactive_flag" ALIGN="LEFT">active_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="internal_organizationsource_code" ALIGN="LEFT">source_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR></TABLE>> style=rounded]
+	person [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Osoba" BGCOLOR="#99FFCC" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="person" COLSPAN= "2"><b>person</b></TD></TR><TR>
+        <TD PORT="personsid" ALIGN="LEFT">sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="persontitle_before" ALIGN="LEFT">title_before</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="personfirst_name" ALIGN="LEFT">first_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="personlast_name" ALIGN="LEFT">last_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="persontitle_after" ALIGN="LEFT">title_after</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="personbirth_date" ALIGN="LEFT">birth_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="personpersonal_identification_code" ALIGN="LEFT">personal_identification_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="personaddress_text" ALIGN="LEFT">address_text</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="personinsolvency_flag" ALIGN="LEFT">insolvency_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR></TABLE>> style=rounded]
+	organization [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Organizace" BGCOLOR="#99FFCC" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="organization" COLSPAN= "2"><b>organization</b></TD></TR><TR>
+        <TD PORT="organizationsid" ALIGN="LEFT">sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="organizationico" ALIGN="LEFT">ico</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationdic" ALIGN="LEFT">dic</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationgroup_vat_dic" ALIGN="LEFT">group_vat_dic</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationizo" ALIGN="LEFT">izo</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlei" ALIGN="LEFT">lei</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationorganization_name" ALIGN="LEFT">organization_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationestablishment_date" ALIGN="LEFT">establishment_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationabolishment_date" ALIGN="LEFT">abolishment_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationabolishment_code" ALIGN="LEFT">abolishment_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationabolishment" ALIGN="LEFT">abolishment</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationinterruption_date" ALIGN="LEFT">interruption_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlegal_form_code" ALIGN="LEFT">legal_form_code</TD>
+        <TD ALIGN="CENTER"><i>INT64</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlegal_form" ALIGN="LEFT">legal_form</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlegal_form_ros_code" ALIGN="LEFT">legal_form_ros_code</TD>
+        <TD ALIGN="CENTER"><i>INT64</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlegal_form_ros" ALIGN="LEFT">legal_form_ros</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationnace_code" ALIGN="LEFT">nace_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationnace" ALIGN="LEFT">nace</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationnace_level_1" ALIGN="LEFT">nace_level_1</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationnace_level_2" ALIGN="LEFT">nace_level_2</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationesa2010_code" ALIGN="LEFT">esa2010_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationesa2010" ALIGN="LEFT">esa2010</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationturnover_category_code" ALIGN="LEFT">turnover_category_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationturnover_category" ALIGN="LEFT">turnover_category</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationVAT_payer" ALIGN="LEFT">VAT_payer</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationVAT_registration_date" ALIGN="LEFT">VAT_registration_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationVAT_reliable_flag" ALIGN="LEFT">VAT_reliable_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationVAT_unreliable_start_date" ALIGN="LEFT">VAT_unreliable_start_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationownership_type_code" ALIGN="LEFT">ownership_type_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationownership_type" ALIGN="LEFT">ownership_type</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationemp_category_code" ALIGN="LEFT">emp_category_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationemp_category" ALIGN="LEFT">emp_category</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationzuj_code" ALIGN="LEFT">zuj_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationzuj" ALIGN="LEFT">zuj</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationaddress_code" ALIGN="LEFT">address_code</TD>
+        <TD ALIGN="CENTER"><i>NUMERIC</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlatitude" ALIGN="LEFT">latitude</TD>
+        <TD ALIGN="CENTER"><i>NUMERIC</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlongitude" ALIGN="LEFT">longitude</TD>
+        <TD ALIGN="CENTER"><i>NUMERIC</i></TD>
+        </TR><TR>
+        <TD PORT="organizationcountry_code" ALIGN="LEFT">country_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationcountry" ALIGN="LEFT">country</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationregion_code" ALIGN="LEFT">region_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationregion" ALIGN="LEFT">region</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationcounty_code" ALIGN="LEFT">county_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationcounty" ALIGN="LEFT">county</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationpost_code" ALIGN="LEFT">post_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationcity" ALIGN="LEFT">city</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationtown_part" ALIGN="LEFT">town_part</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationstreet" ALIGN="LEFT">street</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationhouse_nbr" ALIGN="LEFT">house_nbr</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationhouse_nbr_type" ALIGN="LEFT">house_nbr_type</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationstreet_house_nbr" ALIGN="LEFT">street_house_nbr</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationaddress_nbr" ALIGN="LEFT">address_nbr</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationaddress_text" ALIGN="LEFT">address_text</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationactivation_date_rm" ALIGN="LEFT">activation_date_rm</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationready_made_flag" ALIGN="LEFT">ready_made_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationent_flag" ALIGN="LEFT">ent_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationbirth_date" ALIGN="LEFT">birth_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationfirst_name" ALIGN="LEFT">first_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlast_name" ALIGN="LEFT">last_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlei_registration_date" ALIGN="LEFT">lei_registration_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationlei_next_renewal_date" ALIGN="LEFT">lei_next_renewal_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="organizationinsolvency_flag" ALIGN="LEFT">insolvency_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationliquidation_flag" ALIGN="LEFT">liquidation_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationbankruptcy_flag" ALIGN="LEFT">bankruptcy_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationexecution_flag" ALIGN="LEFT">execution_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationexporter_flag" ALIGN="LEFT">exporter_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="organizationmd_date_valid" ALIGN="LEFT">md_date_valid</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR></TABLE>> style=rounded]
+	subject_relation [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Vazby subjektu" BGCOLOR="#99FFCC" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="subject_relation" COLSPAN= "2"><b>subject_relation</b></TD></TR><TR>
+        <TD PORT="subject_relationprnt_sid" ALIGN="LEFT">prnt_sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationprnt_ico" ALIGN="LEFT">prnt_ico</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationprnt_subject_type" ALIGN="LEFT">prnt_subject_type</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationchld_sid" ALIGN="LEFT">chld_sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationchld_ico" ALIGN="LEFT">chld_ico</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationchld_subject_type" ALIGN="LEFT">chld_subject_type</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationrel_type_code" ALIGN="LEFT">rel_type_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationrel_type" ALIGN="LEFT">rel_type</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationrel_type_category_code" ALIGN="LEFT">rel_type_category_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationrel_type_category" ALIGN="LEFT">rel_type_category</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationstart_date" ALIGN="LEFT">start_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationend_date" ALIGN="LEFT">end_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationrole" ALIGN="LEFT">role</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationrole_start_date" ALIGN="LEFT">role_start_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationrole_end_date" ALIGN="LEFT">role_end_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationmembership_start_date" ALIGN="LEFT">membership_start_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationmembership_end_date" ALIGN="LEFT">membership_end_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationdeposit" ALIGN="LEFT">deposit</TD>
+        <TD ALIGN="CENTER"><i>NUMERIC</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationcurrency" ALIGN="LEFT">currency</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationdeposit_paid" ALIGN="LEFT">deposit_paid</TD>
+        <TD ALIGN="CENTER"><i>NUMERIC</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationdeposit_paid_pct" ALIGN="LEFT">deposit_paid_pct</TD>
+        <TD ALIGN="CENTER"><i>NUMERIC</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationmembership_interest_pct" ALIGN="LEFT">membership_interest_pct</TD>
+        <TD ALIGN="CENTER"><i>NUMERIC</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationeffective_date" ALIGN="LEFT">effective_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationactive_flag" ALIGN="LEFT">active_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subject_relationsource_code" ALIGN="LEFT">source_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR></TABLE>> style=rounded]
+	c_cpa [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Klasifikace produkce CZ CPA" BGCOLOR="#FFFF99" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="c_cpa" COLSPAN= "2"><b>c_cpa</b></TD></TR><TR>
+        <TD PORT="c_cpacpa_code" ALIGN="LEFT">cpa_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpacpa" ALIGN="LEFT">cpa</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpanace_code" ALIGN="LEFT">nace_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpanace" ALIGN="LEFT">nace</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpalevel_1" ALIGN="LEFT">level_1</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpalevel_2" ALIGN="LEFT">level_2</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpalevel_3" ALIGN="LEFT">level_3</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpalevel_4" ALIGN="LEFT">level_4</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpalevel_5" ALIGN="LEFT">level_5</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_cpalevel_6" ALIGN="LEFT">level_6</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR></TABLE>> style=rounded]
+	c_nace [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Číselník NACE kódů" BGCOLOR="#FFFF99" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="c_nace" COLSPAN= "2"><b>c_nace</b></TD></TR><TR>
+        <TD PORT="c_nacenace_code" ALIGN="LEFT">nace_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_nacenace" ALIGN="LEFT">nace</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_nacelevel_1" ALIGN="LEFT">level_1</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_nacelevel_2" ALIGN="LEFT">level_2</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_nacelevel_3" ALIGN="LEFT">level_3</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_nacelevel_4" ALIGN="LEFT">level_4</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_nacelevel_5" ALIGN="LEFT">level_5</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_naceactive_flag" ALIGN="LEFT">active_flag</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_naceend_date" ALIGN="LEFT">end_date</TD>
+        <TD ALIGN="CENTER"><i>DATE</i></TD>
+        </TR></TABLE>> style=rounded]
+	subject [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Subjekt" BGCOLOR="#99FFCC" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="subject" COLSPAN= "2"><b>subject</b></TD></TR><TR>
+        <TD PORT="subjectsid" ALIGN="LEFT">sid</TD>
+        <TD ALIGN="CENTER"><i>BYTES</i></TD>
+        </TR><TR>
+        <TD PORT="subjectsubject_type" ALIGN="LEFT">subject_type</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subjectico" ALIGN="LEFT">ico</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="subjectsubject_name" ALIGN="LEFT">subject_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR></TABLE>> style=rounded]
+	c_country [label=<
+    <TABLE HREF="https://en.mindforce.ai/" TITLE = "Číselník států" BGCOLOR="#FFFF99" BORDER="0" CELLBORDER="1" CELLSPACING="1" CELLPADDING="1">
+    <TR><TD PORT="c_country" COLSPAN= "2"><b>c_country</b></TD></TR><TR>
+        <TD PORT="c_countrycountry_code" ALIGN="LEFT">country_code</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_countrycountry_code_char2" ALIGN="LEFT">country_code_char2</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_countrycountry_code_char3" ALIGN="LEFT">country_code_char3</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_countrycountry" ALIGN="LEFT">country</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_countryshort_name" ALIGN="LEFT">short_name</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_countrycountry_en" ALIGN="LEFT">country_en</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR><TR>
+        <TD PORT="c_countryshort_name_en" ALIGN="LEFT">short_name_en</TD>
+        <TD ALIGN="CENTER"><i>STRING</i></TD>
+        </TR></TABLE>> style=rounded]
+	subject_fact -> subject [label=sid]
+	internal_organization -> subject [label=sid]
+	person -> subject [label=sid]
+	organization -> subject [label=sid]
+	subject_relation -> subject [label=chld_sid]
+	subject_relation -> subject [label=prnt_sid]
+	organization -> c_nace [label=nace_code]
+	c_cpa -> c_nace [label=nace_code]
+	organization -> c_country [label=country_code]
+	subject_relation -> c_rel_type [label=rel_type_code]
+	organization -> c_emp_category [label=emp_category_code]
+	subject_relation -> c_rel_type [label=rel_type_category_code]
+	organization -> c_turnover_category [label=turnover_category_code]
+}
