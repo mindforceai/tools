@@ -1,0 +1,316 @@
+<are:Ares_odpovedi xmlns:are="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2" xmlns:dtt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_datatypes/v_1.0.2" xmlns:udt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/uvis_datatypes/v_1.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="ares" odpoved_datum_cas="2019-01-03T10:28:11" odpoved_pocet="1" odpoved_typ="Vypis_OR" validation_XSLT="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_odpovedi.xsl" vystup_format="XML" xslt="klient" xsi:schemaLocation="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2 http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2/ares_answer_or_v_1.0.2.xsd">
+<are:Odpoved>
+<dtt:Pomocne_ID>0</dtt:Pomocne_ID>
+<dtt:Vysledek_hledani>
+<dtt:Kod>1</dtt:Kod>
+</dtt:Vysledek_hledani>
+<dtt:Pocet_zaznamu>1</dtt:Pocet_zaznamu>
+<dtt:Vypis_OR>
+<dtt:Uvod>
+<dtt:Nadpis>Výpis z dat Obchodního Rejstříku v ARES</dtt:Nadpis>
+<dtt:Aktualizace_DB>2019-01-02</dtt:Aktualizace_DB>
+<dtt:Datum_vypisu>2019-01-03</dtt:Datum_vypisu>
+<dtt:Cas_vypisu>10:28:09</dtt:Cas_vypisu>
+<dtt:Typ_vypisu>uplny</dtt:Typ_vypisu>
+<dtt:Typ_odkazu>0</dtt:Typ_odkazu>
+</dtt:Uvod>
+<dtt:Zakladni_udaje>
+<dtt:Platnost_od>2017-02-10</dtt:Platnost_od>
+<dtt:Stav>
+<dtt:Stav_subjektu>Aktivní</dtt:Stav_subjektu>
+<dtt:Konkurz>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Konkurz>
+<dtt:Vyrovnani>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Vyrovnani>
+<dtt:Zamitnuti>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Zamitnuti>
+<dtt:Likvidace>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Likvidace>
+</dtt:Stav>
+<dtt:ICO dod="2014-01-01">88397807</dtt:ICO>
+<dtt:Obchodni_firma dod="2017-02-10">Spolek SOMACH</dtt:Obchodni_firma>
+<dtt:Obchodni_firma ddo="2017-02-10" dod="2014-01-01">Společnost občanů Machnína, o.s.</dtt:Obchodni_firma>
+<dtt:Pravni_forma_OR dod="2014-01-01">
+<dtt:Kod_PF>706</dtt:Kod_PF>
+<dtt:Nazev_PF>Spolek</dtt:Nazev_PF>
+<dtt:PF_osoba>P</dtt:PF_osoba>
+<dtt:TZU_osoba>Tuzemská</dtt:TZU_osoba>
+</dtt:Pravni_forma_OR>
+<dtt:Sidlo dod="2014-01-01">
+<dtt:ID_adresy>25776766</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Liberec</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Liberec</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Liberec XXXIII-Machnín</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Jitřní</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>238</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>46001</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3505</udt:Kod_okresu>
+<udt:Kod_obce>563889</udt:Kod_obce>
+<udt:Kod_casti_obce>408883</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>556904</udt:Kod_mestske_casti>
+<udt:PSC>46001</udt:PSC>
+<udt:Kod_ulice>260541</udt:Kod_ulice>
+<udt:Cislo_domovni>238</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>23745819</udt:Kod_adresy>
+<udt:Kod_objektu>23364246</udt:Kod_objektu>
+<udt:PCD>350508335</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Sidlo>
+<dtt:Datum_vzniku_OR>1992-01-02</dtt:Datum_vzniku_OR>
+<dtt:Datum_zapisu_OR>2014-01-01</dtt:Datum_zapisu_OR>
+</dtt:Zakladni_udaje>
+<dtt:Registrace>
+<dtt:Spisova_znacka dod="2014-01-01">
+<dtt:Soud>
+<dtt:Kod>5</dtt:Kod>
+<dtt:Text>Krajský soud v Ústí nad Labem</dtt:Text>
+</dtt:Soud>
+<dtt:Oddil_vlozka>L        568</dtt:Oddil_vlozka>
+</dtt:Spisova_znacka>
+</dtt:Registrace>
+<dtt:Cinnosti>
+<dtt:Ucel_nadace>
+<dtt:Text dod="2017-02-10">
+3.1 Informační činnost pro občany, vyhledávání a shromažďování informací.
+
+3.2 organizování kampaní a petičních aktivit.
+
+3.3 účast ve správních a jiných řízeních, při nichž mohou být dotčeny zájmy ochrany území před nevhodnou stavební činností, zájmy ochrany přírody a kvality bydlení občanů.
+
+3.4 organizováním sportovních, kulturních a jiných akcí, vedoucích k zlepšení společného života v této části města.
+
+3.5 veškeré další činnosti a aktivity vedoucí ke zkvalitnění života v městské části Machnín.
+</dtt:Text>
+</dtt:Ucel_nadace>
+</dtt:Cinnosti>
+<dtt:Statutarni_organ>
+<dtt:Clen_SO dod="2017-02-10">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>místopředseda výboru</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>PAVLÍNA</dtt:Jmeno>
+<dtt:Prijmeni>KNEYSOVÁ</dtt:Prijmeni>
+<dtt:Datum_narozeni>1965-12-23</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2017-02-10">
+<dtt:ID_adresy>25776767</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Liberec</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Liberec</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Liberec XXXIII-Machnín</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Tolstého</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>136</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>46001</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3505</udt:Kod_okresu>
+<udt:Kod_obce>563889</udt:Kod_obce>
+<udt:Kod_casti_obce>408883</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>556904</udt:Kod_mestske_casti>
+<udt:PSC>46001</udt:PSC>
+<udt:Kod_ulice>260487</udt:Kod_ulice>
+<udt:Cislo_domovni>136</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>23744804</udt:Kod_adresy>
+<udt:Kod_objektu>23363231</udt:Kod_objektu>
+<udt:PCD>1541655</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2016-02-25</dtt:Datum_zacatku>
+</dtt:Clenstvi>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2016-02-25</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO dod="2017-02-10">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>Člen výboru</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>FRANTIŠEK</dtt:Jmeno>
+<dtt:Prijmeni>BUDÁK</dtt:Prijmeni>
+<dtt:Datum_narozeni>1949-08-13</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2017-02-10">
+<dtt:ID_adresy>25776768</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Liberec</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Liberec</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Liberec XXXIII-Machnín</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Stará</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>226</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>46001</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3505</udt:Kod_okresu>
+<udt:Kod_obce>563889</udt:Kod_obce>
+<udt:Kod_casti_obce>408883</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>556904</udt:Kod_mestske_casti>
+<udt:PSC>46001</udt:PSC>
+<udt:Kod_ulice>259560</udt:Kod_ulice>
+<udt:Cislo_domovni>226</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>23745690</udt:Kod_adresy>
+<udt:Kod_objektu>23364122</udt:Kod_objektu>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2016-02-25</dtt:Datum_zacatku>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO dod="2017-02-10">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>Člen výboru</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Titul_pred>Ing.</dtt:Titul_pred>
+<dtt:Jmeno>JIŘÍ</dtt:Jmeno>
+<dtt:Prijmeni>BOHÁČ</dtt:Prijmeni>
+<dtt:Datum_narozeni>1967-04-09</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2017-02-10">
+<dtt:ID_adresy>25776769</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Liberec</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Liberec</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Liberec XXXIII-Machnín</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Chotyňská</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>210</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>46001</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3505</udt:Kod_okresu>
+<udt:Kod_obce>563889</udt:Kod_obce>
+<udt:Kod_casti_obce>408883</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>556904</udt:Kod_mestske_casti>
+<udt:PSC>46001</udt:PSC>
+<udt:Kod_ulice>260550</udt:Kod_ulice>
+<udt:Cislo_domovni>210</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>23745533</udt:Kod_adresy>
+<udt:Kod_objektu>23363967</udt:Kod_objektu>
+<udt:PCD>1541696</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2016-02-25</dtt:Datum_zacatku>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO dod="2017-02-10">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>Člen výboru</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>JOSEF</dtt:Jmeno>
+<dtt:Prijmeni>ŠLAMBOR</dtt:Prijmeni>
+<dtt:Datum_narozeni>1950-10-03</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2017-02-10">
+<dtt:ID_adresy>25776770</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Liberec</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Liberec</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Liberec XXXIV-Bedřichovka</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Vítkovská</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>38</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>46001</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3505</udt:Kod_okresu>
+<udt:Kod_obce>563889</udt:Kod_obce>
+<udt:Kod_casti_obce>408867</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>556904</udt:Kod_mestske_casti>
+<udt:PSC>46001</udt:PSC>
+<udt:Kod_ulice>260576</udt:Kod_ulice>
+<udt:Cislo_domovni>38</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>25531492</udt:Kod_adresy>
+<udt:Kod_objektu>25056018</udt:Kod_objektu>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2016-02-25</dtt:Datum_zacatku>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO dod="2017-02-10">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>Předseda výboru</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Titul_pred>Ing.</dtt:Titul_pred>
+<dtt:Jmeno>MILAN</dtt:Jmeno>
+<dtt:Prijmeni>PORŠ</dtt:Prijmeni>
+<dtt:Datum_narozeni>1960-12-29</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2017-02-10">
+<dtt:ID_adresy>25776771</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Liberec</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Liberec</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Liberec XXXIII-Machnín</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Jitřní</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>238</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>46001</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3505</udt:Kod_okresu>
+<udt:Kod_obce>563889</udt:Kod_obce>
+<udt:Kod_casti_obce>408883</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>556904</udt:Kod_mestske_casti>
+<udt:PSC>46001</udt:PSC>
+<udt:Kod_ulice>260541</udt:Kod_ulice>
+<udt:Cislo_domovni>238</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>23745819</udt:Kod_adresy>
+<udt:Kod_objektu>23364246</udt:Kod_objektu>
+<udt:PCD>350508335</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2016-02-25</dtt:Datum_zacatku>
+</dtt:Clenstvi>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2016-02-25</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Text dod="2017-02-10">
+Navenek za Spolek jedná předseda Výboru společně s místopředsedou nebo jedním členem Výboru případně osoba pověřená Výborem plnou mocí, podepsanou nadpoloviční většinou členů Výboru. Plná moc musí být v takovém případě udělena písemnou formou s přesným vy
+mezením oprávnění a odpovědnosti zmocněné osoby a musí obsahovat věcný a časový rozsah zmocnění.
+</dtt:Text>
+</dtt:Statutarni_organ>
+</dtt:Vypis_OR>
+</are:Odpoved>
+</are:Ares_odpovedi>

@@ -1,0 +1,833 @@
+<are:Ares_odpovedi xmlns:are="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2" xmlns:dtt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_datatypes/v_1.0.2" xmlns:udt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/uvis_datatypes/v_1.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="ares" odpoved_datum_cas="2019-01-01T22:18:24" odpoved_pocet="1" odpoved_typ="Vypis_OR" validation_XSLT="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_odpovedi.xsl" vystup_format="XML" xslt="klient" xsi:schemaLocation="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2 http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2/ares_answer_or_v_1.0.2.xsd">
+<are:Odpoved>
+<dtt:Pomocne_ID>0</dtt:Pomocne_ID>
+<dtt:Vysledek_hledani>
+<dtt:Kod>1</dtt:Kod>
+</dtt:Vysledek_hledani>
+<dtt:Pocet_zaznamu>1</dtt:Pocet_zaznamu>
+<dtt:Vypis_OR>
+<dtt:Uvod>
+<dtt:Nadpis>Výpis z dat Obchodního Rejstříku v ARES</dtt:Nadpis>
+<dtt:Aktualizace_DB>2018-12-31</dtt:Aktualizace_DB>
+<dtt:Datum_vypisu>2019-01-01</dtt:Datum_vypisu>
+<dtt:Cas_vypisu>22:18:15</dtt:Cas_vypisu>
+<dtt:Typ_vypisu>uplny</dtt:Typ_vypisu>
+<dtt:Typ_odkazu>0</dtt:Typ_odkazu>
+</dtt:Uvod>
+<dtt:Zakladni_udaje>
+<dtt:Platnost_od>2016-09-06</dtt:Platnost_od>
+<dtt:Stav>
+<dtt:Stav_subjektu>Aktivní</dtt:Stav_subjektu>
+<dtt:Konkurz>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Konkurz>
+<dtt:Vyrovnani>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Vyrovnani>
+<dtt:Zamitnuti>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Zamitnuti>
+<dtt:Likvidace>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Likvidace>
+</dtt:Stav>
+<dtt:ICO dod="2002-06-12">26705303</dtt:ICO>
+<dtt:Obchodni_firma dod="2004-05-06">EURO GAP a.s.</dtt:Obchodni_firma>
+<dtt:Obchodni_firma ddo="2004-05-06" dod="2002-06-12">ARUSHEED a.s.</dtt:Obchodni_firma>
+<dtt:Pravni_forma_OR dod="2002-06-12">
+<dtt:Kod_PF>121</dtt:Kod_PF>
+<dtt:Nazev_PF>Akciová společnost</dtt:Nazev_PF>
+<dtt:PF_osoba>P</dtt:PF_osoba>
+<dtt:TZU_osoba>Tuzemská</dtt:TZU_osoba>
+</dtt:Pravni_forma_OR>
+<dtt:Sidlo dod="2004-05-06">
+<dtt:ID_adresy>20659872</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Pardubice 3</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Sportovní</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>140</dtt:Cislo_do_adresy>
+<dtt:PSC>53003</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>103241</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>555096</udt:Kod_mestske_casti>
+<udt:PSC>53003</udt:PSC>
+<udt:Kod_ulice>374741</udt:Kod_ulice>
+<udt:Cislo_domovni>140</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7686170</udt:Kod_adresy>
+<udt:Kod_objektu>7639210</udt:Kod_objektu>
+<udt:PCD>2166800</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Sidlo>
+<dtt:Sidlo ddo="2004-05-06" dod="2002-06-12">
+<dtt:ID_adresy>20659871</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 4</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 4</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Krč</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>U Habrovky</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>274/11</dtt:Cislo_do_adresy>
+<dtt:PSC>14000</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>43</udt:Kod_pobvod>
+<udt:Kod_nobvod>43</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400165</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500119</udt:Kod_mestske_casti>
+<udt:PSC>14000</udt:PSC>
+<udt:Kod_ulice>473227</udt:Kod_ulice>
+</dtt:Adresa_UIR>
+</dtt:Sidlo>
+<dtt:Datum_zapisu_OR>2002-06-12</dtt:Datum_zapisu_OR>
+</dtt:Zakladni_udaje>
+<dtt:Registrace>
+<dtt:Spisova_znacka dod="2004-07-30">
+<dtt:Soud>
+<dtt:Kod>6</dtt:Kod>
+<dtt:Text>Krajský soud v Hradci Králové</dtt:Text>
+</dtt:Soud>
+<dtt:Oddil_vlozka>B       2396</dtt:Oddil_vlozka>
+</dtt:Spisova_znacka>
+<dtt:Spisova_znacka ddo="2004-07-30" dod="2002-06-12">
+<dtt:Soud>
+<dtt:Kod>1</dtt:Kod>
+<dtt:Text>Městský soud v Praze</dtt:Text>
+</dtt:Soud>
+<dtt:Oddil_vlozka>B       7719</dtt:Oddil_vlozka>
+</dtt:Spisova_znacka>
+</dtt:Registrace>
+<dtt:Cinnosti>
+<dtt:Predmet_podnikani>
+<dtt:Text dod="2002-06-12">
+pronájem nemovitostí, bytů a nebytových prostor bez poskytování
+
+jiných než základních služeb spojených s pronájmem
+</dtt:Text>
+</dtt:Predmet_podnikani>
+</dtt:Cinnosti>
+<dtt:Kapital>
+<dtt:Zakladni dod="2002-06-12">
+<dtt:Vklad>
+<dtt:Kc>2000000;00</dtt:Kc>
+</dtt:Vklad>
+<dtt:Splaceno>
+<dtt:Procenta>100</dtt:Procenta>
+</dtt:Splaceno>
+</dtt:Zakladni>
+<dtt:Akcie>
+<dtt:Emise dod="2016-09-06">
+<dtt:Druh_akcie>Kmenové akcie na jméno</dtt:Druh_akcie>
+<dtt:Hodnota>200000;00</dtt:Hodnota>
+<dtt:Pocet>10</dtt:Pocet>
+<dtt:Text dod="2016-09-06">
+podoba: listinná
+</dtt:Text>
+</dtt:Emise>
+<dtt:Emise ddo="2016-09-06" dod="2002-06-12">
+<dtt:Druh_akcie>Kmenové akcie na majitele</dtt:Druh_akcie>
+<dtt:Hodnota>200000;00</dtt:Hodnota>
+<dtt:Pocet>10</dtt:Pocet>
+<dtt:Text ddo="2016-09-06" dod="2002-06-12">
+podoba: listinná
+</dtt:Text>
+</dtt:Emise>
+</dtt:Akcie>
+</dtt:Kapital>
+<dtt:Statutarni_organ>
+<dtt:Clen_SO dod="2016-09-06">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>předseda představenstva</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>STANISLAV</dtt:Jmeno>
+<dtt:Prijmeni>FILIP</dtt:Prijmeni>
+<dtt:Datum_narozeni>1949-11-15</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2016-09-06">
+<dtt:ID_adresy>20659876</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Pardubice</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Pardubice</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Nemošice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Sportovní</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>140</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>53003</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>103241</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>555096</udt:Kod_mestske_casti>
+<udt:PSC>53003</udt:PSC>
+<udt:Kod_ulice>374741</udt:Kod_ulice>
+<udt:Cislo_domovni>140</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7686170</udt:Kod_adresy>
+<udt:Kod_objektu>7639210</udt:Kod_objektu>
+<udt:PCD>2166800</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2015-05-27</dtt:Datum_zacatku>
+</dtt:Clenstvi>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2015-05-27</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="2016-09-06" dod="2008-06-09">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>člen představenstva</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Stanislav</dtt:Jmeno>
+<dtt:Prijmeni>Filip</dtt:Prijmeni>
+<dtt:Datum_narozeni>1949-11-15</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2016-09-06" dod="2008-06-09">
+<dtt:ID_adresy>20659875</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Pardubice</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Nemošice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Sportovní</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>140</dtt:Cislo_do_adresy>
+<dtt:PSC>53003</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>103241</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>555096</udt:Kod_mestske_casti>
+<udt:PSC>53003</udt:PSC>
+<udt:Kod_ulice>374741</udt:Kod_ulice>
+<udt:Cislo_domovni>140</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7686170</udt:Kod_adresy>
+<udt:Kod_objektu>7639210</udt:Kod_objektu>
+<udt:PCD>2166800</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2008-06-04</dtt:Datum_zacatku>
+<dtt:Datum_konce>2015-05-27</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="2008-06-09" dod="2004-05-06">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Stanislav</dtt:Jmeno>
+<dtt:Prijmeni>Filip</dtt:Prijmeni>
+<dtt:Datum_narozeni>1949-11-15</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2008-06-09" dod="2004-05-06">
+<dtt:ID_adresy>20659874</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Pardubice</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Nemošice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Sportovní</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>140</dtt:Cislo_do_adresy>
+<dtt:PSC>53003</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>103241</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>555096</udt:Kod_mestske_casti>
+<udt:PSC>53003</udt:PSC>
+<udt:Kod_ulice>374741</udt:Kod_ulice>
+<udt:Cislo_domovni>140</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7686170</udt:Kod_adresy>
+<udt:Kod_objektu>7639210</udt:Kod_objektu>
+<udt:PCD>2166800</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2002-09-30</dtt:Datum_zacatku>
+<dtt:Datum_konce>2008-06-04</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="2004-05-06" dod="2002-06-12">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Lukáš</dtt:Jmeno>
+<dtt:Prijmeni>Sýkora</dtt:Prijmeni>
+<dtt:Datum_narozeni>1979-01-21</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2004-05-06" dod="2002-06-12">
+<dtt:ID_adresy>20659873</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Břeclav</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Klobouky u Brna</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Vinařská</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>694/25A</dtt:Cislo_do_adresy>
+<dtt:PSC>69172</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>60</udt:Kod_oblasti>
+<udt:Kod_kraje>116</udt:Kod_kraje>
+<udt:Kod_okresu>3704</udt:Kod_okresu>
+<udt:Kod_obce>584550</udt:Kod_obce>
+<udt:Kod_casti_obce>66401</udt:Kod_casti_obce>
+<udt:PSC>69172</udt:PSC>
+<udt:Kod_ulice>59218</udt:Kod_ulice>
+<udt:Cislo_domovni>694</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>25</udt:Cislo_orientacni>
+<udt:Pism_cislo_orientacni>a</udt:Pism_cislo_orientacni>
+<udt:Kod_adresy>9978089</udt:Kod_adresy>
+<udt:Kod_objektu>9924981</udt:Kod_objektu>
+<udt:PCD>406227</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2002-06-12</dtt:Datum_zacatku>
+<dtt:Datum_konce>2002-09-30</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Text dod="2002-06-12">
+Jménem společnosti jedná představenstvo, a to tak, že navenek za
+
+něj jedná jménem společnosti jediný člen představenstva.
+
+Podepisování za společnost se děje tak, že jediný člen
+
+představenstva připojí svůj podpis k nadepsané nebo vytištěné
+
+obchodní firmě společnosti.
+</dtt:Text>
+</dtt:Statutarni_organ>
+<dtt:Dozorci_rada>
+<dtt:Clen_DR dod="2016-09-06">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>předseda dozorčí rady</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>LUKÁŠ</dtt:Jmeno>
+<dtt:Prijmeni>FILIP</dtt:Prijmeni>
+<dtt:Datum_narozeni>1980-07-18</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2016-09-06">
+<dtt:ID_adresy>20659887</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Pardubice</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Pardubice</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Nemošice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Sportovní</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>140</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>53003</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>103241</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>555096</udt:Kod_mestske_casti>
+<udt:PSC>53003</udt:PSC>
+<udt:Kod_ulice>374741</udt:Kod_ulice>
+<udt:Cislo_domovni>140</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7686170</udt:Kod_adresy>
+<udt:Kod_objektu>7639210</udt:Kod_objektu>
+<udt:PCD>2166800</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2015-05-27</dtt:Datum_zacatku>
+</dtt:Clenstvi>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2015-05-27</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2016-09-06" dod="2014-07-24">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>PETRA</dtt:Jmeno>
+<dtt:Prijmeni>PANCHARTKOVÁ</dtt:Prijmeni>
+<dtt:Datum_narozeni>1975-05-03</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2016-09-06" dod="2014-07-24">
+<dtt:ID_adresy>20659885</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Pardubice</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Studánka</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Bartoňova</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>833</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:PSC>53012</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>490342</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>557064</udt:Kod_mestske_casti>
+<udt:PSC>53012</udt:PSC>
+<udt:Kod_ulice>372587</udt:Kod_ulice>
+<udt:Cislo_domovni>833</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7722192</udt:Kod_adresy>
+<udt:Kod_objektu>7675232</udt:Kod_objektu>
+<udt:PCD>3473227</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2003-12-08</dtt:Datum_zacatku>
+<dtt:Datum_konce>2015-05-27</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2014-07-24" dod="2004-06-16">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Petra</dtt:Jmeno>
+<dtt:Prijmeni>Panchartková</dtt:Prijmeni>
+<dtt:Datum_narozeni>1975-05-03</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2014-07-24" dod="2004-06-16">
+<dtt:ID_adresy>20659884</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Chudeřice</dtt:Nazev_obce>
+<dtt:Cislo_do_adresy>8</dtt:Cislo_do_adresy>
+<dtt:PSC>50351</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>86</udt:Kod_kraje>
+<udt:Kod_okresu>3602</udt:Kod_okresu>
+<udt:Kod_obce>570125</udt:Kod_obce>
+<udt:Kod_casti_obce>54780</udt:Kod_casti_obce>
+<udt:PSC>50351</udt:PSC>
+<udt:Cislo_domovni>8</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>15750752</udt:Kod_adresy>
+<udt:Kod_objektu>15637557</udt:Kod_objektu>
+<udt:PCD>1066231</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2003-12-08</dtt:Datum_zacatku>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2016-09-06" dod="2004-06-16">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Lukáš</dtt:Jmeno>
+<dtt:Prijmeni>Filip</dtt:Prijmeni>
+<dtt:Datum_narozeni>1980-07-18</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2016-09-06" dod="2004-06-16">
+<dtt:ID_adresy>20659883</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Pardubice</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Nemošice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Sportovní</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>140</dtt:Cislo_do_adresy>
+<dtt:PSC>53003</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>103241</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>555096</udt:Kod_mestske_casti>
+<udt:PSC>53003</udt:PSC>
+<udt:Kod_ulice>374741</udt:Kod_ulice>
+<udt:Cislo_domovni>140</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7686170</udt:Kod_adresy>
+<udt:Kod_objektu>7639210</udt:Kod_objektu>
+<udt:PCD>2166800</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2003-12-08</dtt:Datum_zacatku>
+<dtt:Datum_konce>2015-05-27</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2016-09-06" dod="2004-06-16">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Lenka</dtt:Jmeno>
+<dtt:Prijmeni>Plzová</dtt:Prijmeni>
+<dtt:Datum_narozeni>1970-05-31</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2016-09-06" dod="2004-06-16">
+<dtt:ID_adresy>20659886</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Pardubice</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Češkova</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>1358</dtt:Cislo_do_adresy>
+<dtt:PSC>53002</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>490351</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>557072</udt:Kod_mestske_casti>
+<udt:PSC>53002</udt:PSC>
+<udt:Kod_ulice>372382</udt:Kod_ulice>
+<udt:Cislo_domovni>1358</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7702566</udt:Kod_adresy>
+<udt:Kod_objektu>7655606</udt:Kod_objektu>
+<udt:PCD>2183063</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2003-12-08</dtt:Datum_zacatku>
+<dtt:Datum_konce>2015-05-27</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2004-06-16" dod="2004-05-06">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>předseda</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>František</dtt:Jmeno>
+<dtt:Prijmeni>Rigo</dtt:Prijmeni>
+<dtt:Datum_narozeni>1968-02-12</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2004-06-16" dod="2004-05-06">
+<dtt:ID_adresy>20659880</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Stvolínky</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Kolné</dtt:Nazev_casti_obce>
+<dtt:Cislo_do_adresy>1</dtt:Cislo_do_adresy>
+<dtt:PSC>47102</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3501</udt:Kod_okresu>
+<udt:Kod_obce>562114</udt:Kod_obce>
+<udt:Kod_casti_obce>158623</udt:Kod_casti_obce>
+<udt:PSC>47001</udt:PSC>
+<udt:Cislo_domovni>1</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>27732118</udt:Kod_adresy>
+<udt:Kod_objektu>27205011</udt:Kod_objektu>
+<udt:PCD>350115667</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2002-09-30</dtt:Datum_zacatku>
+<dtt:Datum_konce>2003-12-08</dtt:Datum_konce>
+</dtt:Clenstvi>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2002-09-30</dtt:Datum_zacatku>
+<dtt:Datum_konce>2003-12-08</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2004-06-16" dod="2004-05-06">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Pavel</dtt:Jmeno>
+<dtt:Prijmeni>Stránský</dtt:Prijmeni>
+<dtt:Datum_narozeni>1968-12-13</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2004-06-16" dod="2004-05-06">
+<dtt:ID_adresy>20659881</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Nový Oldřichov</dtt:Nazev_obce>
+<dtt:Cislo_do_adresy>131</dtt:Cislo_do_adresy>
+<dtt:PSC>47113</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3501</udt:Kod_okresu>
+<udt:Kod_obce>561878</udt:Kod_obce>
+<udt:Kod_casti_obce>107832</udt:Kod_casti_obce>
+<udt:PSC>47113</udt:PSC>
+<udt:Cislo_domovni>131</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>13061194</udt:Kod_adresy>
+<udt:Kod_objektu>12971936</udt:Kod_objektu>
+<udt:PCD>72754</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2002-09-30</dtt:Datum_zacatku>
+<dtt:Datum_konce>2003-12-08</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2004-06-16" dod="2004-05-06">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Miloslav</dtt:Jmeno>
+<dtt:Prijmeni>Blahovec</dtt:Prijmeni>
+<dtt:Datum_narozeni>1962-07-04</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2004-06-16" dod="2004-05-06">
+<dtt:ID_adresy>20659882</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Nový Oldřichov</dtt:Nazev_obce>
+<dtt:Cislo_do_adresy>21</dtt:Cislo_do_adresy>
+<dtt:PSC>47113</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3501</udt:Kod_okresu>
+<udt:Kod_obce>561878</udt:Kod_obce>
+<udt:Kod_casti_obce>107832</udt:Kod_casti_obce>
+<udt:PSC>47113</udt:PSC>
+<udt:Cislo_domovni>21</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>13060686</udt:Kod_adresy>
+<udt:Kod_objektu>12971421</udt:Kod_objektu>
+<udt:PCD>72681</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2002-09-30</dtt:Datum_zacatku>
+<dtt:Datum_konce>2003-12-08</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2004-05-06" dod="2002-06-12">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>předseda</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Pavla</dtt:Jmeno>
+<dtt:Prijmeni>Smetanová</dtt:Prijmeni>
+<dtt:Datum_narozeni>1978-11-23</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2004-05-06" dod="2002-06-12">
+<dtt:ID_adresy>20659877</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 6</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 6</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Brunnerova</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>993/14</dtt:Cislo_do_adresy>
+<dtt:PSC>16300</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>60</udt:Kod_pobvod>
+<udt:Kod_nobvod>213</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400483</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>547174</udt:Kod_mestske_casti>
+<udt:PSC>16300</udt:PSC>
+<udt:Kod_ulice>501867</udt:Kod_ulice>
+<udt:Cislo_domovni>993</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>14</udt:Cislo_orientacni>
+<udt:Kod_adresy>22249834</udt:Kod_adresy>
+<udt:Kod_objektu>22108157</udt:Kod_objektu>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2002-06-12</dtt:Datum_zacatku>
+<dtt:Datum_konce>2002-09-30</dtt:Datum_konce>
+</dtt:Clenstvi>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2002-06-12</dtt:Datum_zacatku>
+<dtt:Datum_konce>2002-09-30</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2004-05-06" dod="2002-06-12">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Lukáš</dtt:Jmeno>
+<dtt:Prijmeni>Vrtílek</dtt:Prijmeni>
+<dtt:Datum_narozeni>1979-03-25</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2004-05-06" dod="2002-06-12">
+<dtt:ID_adresy>20659878</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Brno-město</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Brno</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Nezamyslova</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>1659/5</dtt:Cislo_do_adresy>
+<dtt:PSC>61500</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>60</udt:Kod_oblasti>
+<udt:Kod_kraje>116</udt:Kod_kraje>
+<udt:Kod_okresu>3702</udt:Kod_okresu>
+<udt:Kod_obce>582786</udt:Kod_obce>
+<udt:Kod_casti_obce>490415</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>551058</udt:Kod_mestske_casti>
+<udt:PSC>61500</udt:PSC>
+<udt:Kod_ulice>28797</udt:Kod_ulice>
+<udt:Cislo_domovni>1659</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>5</udt:Cislo_orientacni>
+<udt:Kod_adresy>19635613</udt:Kod_adresy>
+<udt:Kod_objektu>19431571</udt:Kod_objektu>
+<udt:PCD>644066</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2002-06-12</dtt:Datum_zacatku>
+<dtt:Datum_konce>2002-09-30</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2004-05-06" dod="2002-06-12">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Lenka</dtt:Jmeno>
+<dtt:Prijmeni>Petrlová</dtt:Prijmeni>
+<dtt:Datum_narozeni>1977-12-20</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2004-05-06" dod="2002-06-12">
+<dtt:ID_adresy>20659879</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Suchohrdy u Miroslavi</dtt:Nazev_obce>
+<dtt:Cislo_do_adresy>170</dtt:Cislo_do_adresy>
+<dtt:PSC>67172</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>60</udt:Kod_oblasti>
+<udt:Kod_kraje>116</udt:Kod_kraje>
+<udt:Kod_okresu>3713</udt:Kod_okresu>
+<udt:Kod_obce>594849</udt:Kod_obce>
+<udt:Kod_casti_obce>159212</udt:Kod_casti_obce>
+<udt:PSC>67172</udt:PSC>
+<udt:Cislo_domovni>170</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>10907661</udt:Kod_adresy>
+<udt:Kod_objektu>10845097</udt:Kod_objektu>
+<udt:PCD>3722319</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_zacatku>2002-06-12</dtt:Datum_zacatku>
+<dtt:Datum_konce>2002-09-30</dtt:Datum_konce>
+</dtt:Clenstvi>
+</dtt:Clen>
+</dtt:Clen_DR>
+</dtt:Dozorci_rada>
+<dtt:Akcionari>
+<dtt:Akcionar dod="2004-05-06">
+<dtt:Kod_angm>5</dtt:Kod_angm>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Stanislav</dtt:Jmeno>
+<dtt:Prijmeni>Filip</dtt:Prijmeni>
+<dtt:Datum_narozeni>1949-11-15</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2004-05-06">
+<dtt:ID_adresy>20659889</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Pardubice</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Nemošice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Sportovní</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>140</dtt:Cislo_do_adresy>
+<dtt:PSC>53003</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>94</udt:Kod_kraje>
+<udt:Kod_okresu>3606</udt:Kod_okresu>
+<udt:Kod_obce>555134</udt:Kod_obce>
+<udt:Kod_casti_obce>103241</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>555096</udt:Kod_mestske_casti>
+<udt:PSC>53003</udt:PSC>
+<udt:Kod_ulice>374741</udt:Kod_ulice>
+<udt:Cislo_domovni>140</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Kod_adresy>7686170</udt:Kod_adresy>
+<udt:Kod_objektu>7639210</udt:Kod_objektu>
+<udt:PCD>2166800</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+</dtt:Akcionar>
+<dtt:Akcionar ddo="2004-05-06" dod="2002-06-12">
+<dtt:Kod_angm>5</dtt:Kod_angm>
+<dtt:Pravnicka_osoba ddo="2004-05-06" dod="2002-06-12">
+<dtt:ICO>26435853</dtt:ICO>
+<dtt:Obchodni_firma>OLIVIER CAPITAL, spol. s r.o.</dtt:Obchodni_firma>
+<dtt:Nazev_PF>Společnost s ručením omezeným</dtt:Nazev_PF>
+<dtt:Sidlo ddo="2004-05-06" dod="2002-06-12">
+<dtt:ID_adresy>20659888</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 3</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 3</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Táboritská</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>1000/23</dtt:Cislo_do_adresy>
+<dtt:PSC>13087</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>35</udt:Kod_pobvod>
+<udt:Kod_nobvod>35</udt:Kod_nobvod>
+<udt:Kod_casti_obce>490261</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500097</udt:Kod_mestske_casti>
+<udt:PSC>13000</udt:PSC>
+<udt:Kod_ulice>471895</udt:Kod_ulice>
+<udt:Cislo_domovni>1000</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>23</udt:Cislo_orientacni>
+<udt:Kod_adresy>22720308</udt:Kod_adresy>
+<udt:Kod_objektu>21701113</udt:Kod_objektu>
+<udt:PCD>310003005</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Sidlo>
+</dtt:Pravnicka_osoba>
+</dtt:Akcionar>
+</dtt:Akcionari>
+</dtt:Vypis_OR>
+</are:Odpoved>
+</are:Ares_odpovedi>

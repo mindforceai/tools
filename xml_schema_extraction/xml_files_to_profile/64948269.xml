@@ -1,0 +1,1050 @@
+<are:Ares_odpovedi xmlns:are="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2" xmlns:dtt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_datatypes/v_1.0.2" xmlns:udt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/uvis_datatypes/v_1.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="ares" odpoved_datum_cas="2019-01-03T10:22:45" odpoved_pocet="1" odpoved_typ="Vypis_OR" validation_XSLT="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_odpovedi.xsl" vystup_format="XML" xslt="klient" xsi:schemaLocation="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2 http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_or/v_1.0.2/ares_answer_or_v_1.0.2.xsd">
+<are:Odpoved>
+<dtt:Pomocne_ID>0</dtt:Pomocne_ID>
+<dtt:Vysledek_hledani>
+<dtt:Kod>1</dtt:Kod>
+</dtt:Vysledek_hledani>
+<dtt:Pocet_zaznamu>1</dtt:Pocet_zaznamu>
+<dtt:Vypis_OR>
+<dtt:Uvod>
+<dtt:Nadpis>Výpis z dat Obchodního Rejstříku v ARES</dtt:Nadpis>
+<dtt:Aktualizace_DB>2019-01-02</dtt:Aktualizace_DB>
+<dtt:Datum_vypisu>2019-01-03</dtt:Datum_vypisu>
+<dtt:Cas_vypisu>10:22:43</dtt:Cas_vypisu>
+<dtt:Typ_vypisu>uplny</dtt:Typ_vypisu>
+<dtt:Typ_odkazu>0</dtt:Typ_odkazu>
+</dtt:Uvod>
+<dtt:Zakladni_udaje>
+<dtt:Platnost_od>2015-01-03</dtt:Platnost_od>
+<dtt:Stav>
+<dtt:Stav_subjektu>Aktivní</dtt:Stav_subjektu>
+<dtt:Konkurz>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Konkurz>
+<dtt:Vyrovnani>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Vyrovnani>
+<dtt:Zamitnuti>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Zamitnuti>
+<dtt:Likvidace>
+<dtt:Kod>0</dtt:Kod>
+</dtt:Likvidace>
+</dtt:Stav>
+<dtt:ICO dod="1996-01-02">64948269</dtt:ICO>
+<dtt:Obchodni_firma dod="2001-09-10">Trim Group a.s.</dtt:Obchodni_firma>
+<dtt:Obchodni_firma ddo="2001-09-10" dod="2001-03-14">KRISTINA REAL, a.s.</dtt:Obchodni_firma>
+<dtt:Obchodni_firma ddo="2001-03-14" dod="1999-03-10">KRISTINA REAL, a.s. v likvidaci</dtt:Obchodni_firma>
+<dtt:Obchodni_firma ddo="1999-03-10" dod="1996-01-02">KRISTINA REAL, a.s.</dtt:Obchodni_firma>
+<dtt:Pravni_forma_OR dod="1996-01-02">
+<dtt:Kod_PF>121</dtt:Kod_PF>
+<dtt:Nazev_PF>Akciová společnost</dtt:Nazev_PF>
+<dtt:PF_osoba>P</dtt:PF_osoba>
+<dtt:TZU_osoba>Tuzemská</dtt:TZU_osoba>
+</dtt:Pravni_forma_OR>
+<dtt:Sidlo dod="2007-12-17">
+<dtt:ID_adresy>22767326</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Praha 6</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Veleslavín</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Křenova</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>438/7</dtt:Cislo_do_adresy>
+<dtt:PSC>16200</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>60</udt:Kod_pobvod>
+<udt:Kod_nobvod>60</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400432</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500178</udt:Kod_mestske_casti>
+<udt:PSC>16200</udt:PSC>
+<udt:Kod_ulice>453676</udt:Kod_ulice>
+<udt:Cislo_domovni>438</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>7</udt:Cislo_orientacni>
+<udt:Kod_adresy>22758143</udt:Kod_adresy>
+<udt:Kod_objektu>22061070</udt:Kod_objektu>
+<udt:PCD>310024443</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Sidlo>
+<dtt:Sidlo ddo="2007-12-17" dod="2001-09-10">
+<dtt:ID_adresy>22767325</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 9</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 9</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Horní Počernice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Slatiňanská</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>933/16</dtt:Cislo_do_adresy>
+<dtt:PSC>19300</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>94</udt:Kod_pobvod>
+<udt:Kod_nobvod>175</udt:Kod_nobvod>
+<udt:Kod_casti_obce>43770</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>538213</udt:Kod_mestske_casti>
+<udt:PSC>19300</udt:PSC>
+<udt:Kod_ulice>494291</udt:Kod_ulice>
+<udt:Cislo_domovni>933</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>16</udt:Cislo_orientacni>
+<udt:Kod_adresy>22438793</udt:Kod_adresy>
+<udt:Kod_objektu>21477825</udt:Kod_objektu>
+<udt:PCD>2522567</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Sidlo>
+<dtt:Sidlo ddo="2001-09-10" dod="1996-01-02">
+<dtt:ID_adresy>22767324</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Praha 4 - Háje</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Za rybářstvím</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>210</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>43</udt:Kod_pobvod>
+<udt:Kod_nobvod>116</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400220</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>547034</udt:Kod_mestske_casti>
+<udt:PSC>14900</udt:PSC>
+<udt:Kod_ulice>508861</udt:Kod_ulice>
+<udt:Cislo_domovni>210</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>2</udt:Cislo_orientacni>
+<udt:Kod_adresy>21815712</udt:Kod_adresy>
+<udt:Kod_objektu>21840199</udt:Kod_objektu>
+</dtt:Adresa_UIR>
+</dtt:Sidlo>
+<dtt:Datum_zapisu_OR>1996-01-02</dtt:Datum_zapisu_OR>
+</dtt:Zakladni_udaje>
+<dtt:Registrace>
+<dtt:Spisova_znacka dod="1996-01-02">
+<dtt:Soud>
+<dtt:Kod>1</dtt:Kod>
+<dtt:Text>Městský soud v Praze</dtt:Text>
+</dtt:Soud>
+<dtt:Oddil_vlozka>B       3610</dtt:Oddil_vlozka>
+</dtt:Spisova_znacka>
+</dtt:Registrace>
+<dtt:Cinnosti>
+<dtt:Predmet_podnikani>
+<dtt:Text dod="2015-01-03">
+Výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona
+</dtt:Text>
+<dtt:Text dod="2001-09-10">
+činnost daňového poradenství
+</dtt:Text>
+<dtt:Text dod="2001-09-10">
+zastavárenská činnost
+</dtt:Text>
+<dtt:Text dod="2001-09-10">
+činnost účetních poradců a vedení účetnictví
+</dtt:Text>
+<dtt:Text ddo="2015-01-03" dod="1998-12-30">
+Zprostředkování v oblasti obchodu a služeb v rozsahu živnosti
+
+volné
+</dtt:Text>
+<dtt:Text dod="1997-02-19">
+finanční a operativní leasing
+</dtt:Text>
+<dtt:Text dod="1997-02-19">
+činnost organizačních a ekonomických poradců
+</dtt:Text>
+<dtt:Text ddo="2001-09-10" dod="1997-02-19">
+hostinská činnost
+</dtt:Text>
+<dtt:Text ddo="2001-09-10" dod="1997-02-19">
+výroba potravin mimo oborů skupiny 108 uvedených v příloze č.1,
+
+zákona č. 455/1991 Sb.
+</dtt:Text>
+<dtt:Text dod="1996-01-02">
+realitní kancelář
+</dtt:Text>
+<dtt:Text dod="1996-01-02">
+pronájem nemovitostí, bytových a nebytových prostor
+
+s poskytováním pouze základních služeb spojených s pronájmem
+</dtt:Text>
+<dtt:Text ddo="2015-01-03" dod="1996-01-02">
+koupě zboží za účelem jeho dalšího prodeje a prodej
+</dtt:Text>
+</dtt:Predmet_podnikani>
+</dtt:Cinnosti>
+<dtt:Ostatni_skutecnosti>
+<dtt:Text dod="2015-01-03">
+funkční období člena představenstva 10 let
+</dtt:Text>
+</dtt:Ostatni_skutecnosti>
+<dtt:Kapital>
+<dtt:Zakladni dod="1997-02-19">
+<dtt:Vklad>
+<dtt:Kc>2000000;00</dtt:Kc>
+</dtt:Vklad>
+<dtt:Splaceno>
+<dtt:Procenta>100</dtt:Procenta>
+</dtt:Splaceno>
+</dtt:Zakladni>
+<dtt:Zakladni ddo="1997-02-19" dod="1996-01-02">
+<dtt:Vklad>
+<dtt:Kc>2000000;00</dtt:Kc>
+</dtt:Vklad>
+<dtt:Splaceno>
+<dtt:Ostatni>neuvedeno</dtt:Ostatni>
+</dtt:Splaceno>
+</dtt:Zakladni>
+<dtt:Akcie>
+<dtt:Emise dod="2004-10-23">
+<dtt:Druh_akcie>Kmenové akcie na jméno</dtt:Druh_akcie>
+<dtt:Hodnota>100000;00</dtt:Hodnota>
+<dtt:Pocet>20</dtt:Pocet>
+<dtt:Text dod="2004-10-23">
+v listinné podobě
+</dtt:Text>
+</dtt:Emise>
+<dtt:Emise ddo="2004-10-23" dod="1996-01-02">
+<dtt:Druh_akcie>Akcie na majitele</dtt:Druh_akcie>
+<dtt:Hodnota>5000;00</dtt:Hodnota>
+<dtt:Pocet>400</dtt:Pocet>
+</dtt:Emise>
+</dtt:Akcie>
+</dtt:Kapital>
+<dtt:Statutarni_organ>
+<dtt:Clen_SO dod="2015-05-18">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>člen představenstva</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>RADIM</dtt:Jmeno>
+<dtt:Prijmeni>TŘEŠŇÁK</dtt:Prijmeni>
+<dtt:Datum_narozeni>1954-07-08</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2015-05-18">
+<dtt:ID_adresy>22767328</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Hlavní město Praha</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Horní Počernice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Slatiňanská</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>933</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:Cislo_orientacni>16</dtt:Cislo_orientacni>
+<dtt:PSC>19300</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>94</udt:Kod_pobvod>
+<udt:Kod_nobvod>175</udt:Kod_nobvod>
+<udt:Kod_casti_obce>43770</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>538213</udt:Kod_mestske_casti>
+<udt:PSC>19300</udt:PSC>
+<udt:Kod_ulice>494291</udt:Kod_ulice>
+<udt:Cislo_domovni>933</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>16</udt:Cislo_orientacni>
+<udt:Kod_adresy>22438793</udt:Kod_adresy>
+<udt:Kod_objektu>21477825</udt:Kod_objektu>
+<udt:PCD>2522567</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2001-02-01</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="2015-05-18" dod="2013-03-13">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>člen představenstva</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>RADIM</dtt:Jmeno>
+<dtt:Prijmeni>TŘEŠŇÁK</dtt:Prijmeni>
+<dtt:Datum_narozeni>1954-07-08</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2015-05-18" dod="2013-03-13">
+<dtt:ID_adresy>22767334</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Praha 9</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Horní Počernice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Slatiňanská</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>933</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:Cislo_orientacni>16</dtt:Cislo_orientacni>
+<dtt:PSC>19300</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>94</udt:Kod_pobvod>
+<udt:Kod_nobvod>175</udt:Kod_nobvod>
+<udt:Kod_casti_obce>43770</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>538213</udt:Kod_mestske_casti>
+<udt:PSC>19300</udt:PSC>
+<udt:Kod_ulice>494291</udt:Kod_ulice>
+<udt:Cislo_domovni>933</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>16</udt:Cislo_orientacni>
+<udt:Kod_adresy>22438793</udt:Kod_adresy>
+<udt:Kod_objektu>21477825</udt:Kod_objektu>
+<udt:PCD>2522567</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2001-02-01</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="2013-03-13" dod="2001-09-10">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Titul_pred>Ing.</dtt:Titul_pred>
+<dtt:Jmeno>Radim</dtt:Jmeno>
+<dtt:Prijmeni>Třešňák</dtt:Prijmeni>
+<dtt:Datum_narozeni>1954-07-08</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2013-03-13" dod="2001-09-10">
+<dtt:ID_adresy>22767333</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Nymburk</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Poděbrady</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Lidická</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>25</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>27</udt:Kod_oblasti>
+<udt:Kod_kraje>27</udt:Kod_kraje>
+<udt:Kod_okresu>3208</udt:Kod_okresu>
+<udt:Kod_obce>537683</udt:Kod_obce>
+<udt:Kod_casti_obce>402931</udt:Kod_casti_obce>
+<udt:PSC>29001</udt:PSC>
+<udt:Kod_ulice>320714</udt:Kod_ulice>
+<udt:Cislo_domovni>792</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>25</udt:Cislo_orientacni>
+<udt:Kod_adresy>18322433</udt:Kod_adresy>
+<udt:Kod_objektu>18184421</udt:Kod_objektu>
+<udt:PCD>1968459</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2001-02-01</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="2001-09-10" dod="1998-12-30">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>předseda představenstva</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Cornel</dtt:Jmeno>
+<dtt:Prijmeni>Boda</dtt:Prijmeni>
+<dtt:Datum_narozeni>1954-06-09</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2001-09-10" dod="1998-12-30">
+<dtt:ID_adresy>22767330</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 4</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 4</dtt:Nazev_obce>
+<dtt:Nazev_ulice>U družstva Práce</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>96</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>43</udt:Kod_pobvod>
+<udt:Kod_nobvod>43</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400203</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500119</udt:Kod_mestske_casti>
+<udt:PSC>14000</udt:PSC>
+<udt:Kod_ulice>473120</udt:Kod_ulice>
+<udt:Cislo_domovni>1736</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>96</udt:Cislo_orientacni>
+<udt:Kod_adresy>22736379</udt:Kod_adresy>
+<udt:Kod_objektu>21817065</udt:Kod_objektu>
+<udt:PCD>310011215</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_konce>2001-02-01</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="2001-09-10" dod="1998-12-30">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>člen představenstva</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Helena</dtt:Jmeno>
+<dtt:Prijmeni>Boda</dtt:Prijmeni>
+<dtt:Datum_narozeni>1956-10-13</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2001-09-10" dod="1998-12-30">
+<dtt:ID_adresy>22767331</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 5</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 5</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Pod Šmukýřkou</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>1078</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>51</udt:Kod_pobvod>
+<udt:Kod_nobvod>51</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400319</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500143</udt:Kod_mestske_casti>
+<udt:PSC>15000</udt:PSC>
+<udt:Kod_ulice>485764</udt:Kod_ulice>
+<udt:Cislo_domovni>1078</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>8</udt:Cislo_orientacni>
+<udt:Kod_adresy>22029427</udt:Kod_adresy>
+<udt:Kod_objektu>21951217</udt:Kod_objektu>
+<udt:PCD>3495268</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_konce>2001-02-01</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="1998-12-30" dod="1996-01-02">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Funkce>předseda představenstva</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Cornel</dtt:Jmeno>
+<dtt:Prijmeni>Boda</dtt:Prijmeni>
+<dtt:Bydliste ddo="1998-12-30" dod="1996-01-02">
+<dtt:ID_adresy>22767327</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 8</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 8</dtt:Nazev_obce>
+<dtt:Nazev_ulice>U libeňského pivovaru</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>1</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>86</udt:Kod_pobvod>
+<udt:Kod_nobvod>86</udt:Kod_nobvod>
+<udt:Kod_casti_obce>490105</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500208</udt:Kod_mestske_casti>
+<udt:PSC>18000</udt:PSC>
+<udt:Kod_ulice>473774</udt:Kod_ulice>
+<udt:Cislo_domovni>1332</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>1</udt:Cislo_orientacni>
+<udt:Kod_adresy>22385771</udt:Kod_adresy>
+<udt:Kod_objektu>22203249</udt:Kod_objektu>
+<udt:PCD>2515741</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="1998-12-30" dod="1996-01-02">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Liviu</dtt:Jmeno>
+<dtt:Prijmeni>Butuman</dtt:Prijmeni>
+<dtt:Bydliste ddo="1998-12-30" dod="1996-01-02">
+<dtt:ID_adresy>22767329</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 5</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 5</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Brdíčkova</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>1914/15</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>51</udt:Kod_pobvod>
+<udt:Kod_nobvod>132</udt:Kod_nobvod>
+<udt:Kod_casti_obce>490172</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>539694</udt:Kod_mestske_casti>
+<udt:PSC>15500</udt:PSC>
+<udt:Kod_ulice>502553</udt:Kod_ulice>
+<udt:Cislo_domovni>1914</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>15</udt:Cislo_orientacni>
+<udt:Kod_adresy>22122583</udt:Kod_adresy>
+<udt:Kod_objektu>21999252</udt:Kod_objektu>
+<udt:PCD>3625291</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Clen_SO ddo="2001-09-10" dod="1996-01-02">
+<dtt:Clen>
+<dtt:Kod_angm>1</dtt:Kod_angm>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Ivan</dtt:Jmeno>
+<dtt:Prijmeni>Jičínský</dtt:Prijmeni>
+<dtt:Bydliste ddo="2001-09-10" dod="1996-01-02">
+<dtt:ID_adresy>22767332</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Praha 4 - Háje</dtt:Nazev_obce>
+<dtt:Nazev_ulice>U rybářství</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>210</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>43</udt:Kod_pobvod>
+<udt:Kod_nobvod>116</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400220</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>547034</udt:Kod_mestske_casti>
+<udt:PSC>14900</udt:PSC>
+<udt:Kod_ulice>481661</udt:Kod_ulice>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_konce>2001-02-01</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_SO>
+<dtt:Text dod="2001-09-10">
+Za společnost jedná v plném rozsahu každý člen představenstva.
+
+Podepisování za společnost se děje tak, že k vytištěnému nebo
+
+napsanému obchodnímu jménu společnosti připojí svůj vlastnoruční
+
+podpis člen představenstva.
+</dtt:Text>
+<dtt:Text ddo="2001-09-10" dod="1996-01-02">
+Za společnost jedná v plném rozsahu předseda představenstva.
+
+Podepisování za společnost se děje tak, že k vytištěnému nebo
+
+napsanému obchodnímu jménu společnosti připojí svůj vlastnoruční
+
+podpis předseda představenstva.
+</dtt:Text>
+</dtt:Statutarni_organ>
+<dtt:Likvidace>
+<dtt:Likvidator ddo="2001-03-14" dod="1999-03-10">
+<dtt:Kod_angm>2</dtt:Kod_angm>
+<dtt:Fyzicka_osoba>
+<dtt:Titul_pred>Ing.</dtt:Titul_pred>
+<dtt:Jmeno>Radim</dtt:Jmeno>
+<dtt:Prijmeni>Třešňák</dtt:Prijmeni>
+<dtt:Datum_narozeni>1954-07-08</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2001-03-14" dod="1999-03-10">
+<dtt:ID_adresy>22767335</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Jablonec nad Nisou</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Jablonec nad Nisou</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Žitná</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>4a</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>51</udt:Kod_oblasti>
+<udt:Kod_kraje>78</udt:Kod_kraje>
+<udt:Kod_okresu>3504</udt:Kod_okresu>
+<udt:Kod_obce>563510</udt:Kod_obce>
+<udt:Kod_casti_obce>408085</udt:Kod_casti_obce>
+<udt:PSC>46601</udt:PSC>
+<udt:Kod_ulice>158496</udt:Kod_ulice>
+<udt:Cislo_domovni>3222</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>4</udt:Cislo_orientacni>
+<udt:Pism_cislo_orientacni>a</udt:Pism_cislo_orientacni>
+<udt:Kod_adresy>12188794</udt:Kod_adresy>
+<udt:Kod_objektu>12120804</udt:Kod_objektu>
+<udt:PCD>1127435</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Text ddo="2001-03-14" dod="1999-03-10">
+Likvidátor pod dobu likvidace jedná a podepisuje za
+
+společnost.
+
+Podepisování za společnost se děje tak, že likvidátor k
+
+napsanému nebo vytištěnému obchodnímu jménu společnosti s
+
+dovětkem v likvidaci, připojí svůj vlastnoruční podpis s
+
+označením likvidátor.
+</dtt:Text>
+</dtt:Likvidator>
+</dtt:Likvidace>
+<dtt:Dozorci_rada>
+<dtt:Clen_DR dod="2016-11-04">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>předseda</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Titul_pred>Mgr.</dtt:Titul_pred>
+<dtt:Jmeno>JANA</dtt:Jmeno>
+<dtt:Prijmeni>TŘEŠŇÁKOVÁ</dtt:Prijmeni>
+<dtt:Datum_narozeni>1956-04-17</dtt:Datum_narozeni>
+<dtt:Bydliste dod="2016-11-04">
+<dtt:ID_adresy>22767342</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Hlavní město Praha</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha</dtt:Nazev_obce>
+<dtt:Nazev_casti_obce>Horní Počernice</dtt:Nazev_casti_obce>
+<dtt:Nazev_ulice>Slatiňanská</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>933</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:Cislo_orientacni>16</dtt:Cislo_orientacni>
+<dtt:PSC>19300</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>94</udt:Kod_pobvod>
+<udt:Kod_nobvod>175</udt:Kod_nobvod>
+<udt:Kod_casti_obce>43770</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>538213</udt:Kod_mestske_casti>
+<udt:PSC>19300</udt:PSC>
+<udt:Kod_ulice>494291</udt:Kod_ulice>
+<udt:Cislo_domovni>933</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>16</udt:Cislo_orientacni>
+<udt:Kod_adresy>22438793</udt:Kod_adresy>
+<udt:Kod_objektu>21477825</udt:Kod_objektu>
+<udt:PCD>2522567</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2001-02-01</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2015-01-03" dod="2001-09-10">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen dozorčí rady</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Markéta</dtt:Jmeno>
+<dtt:Prijmeni>Třešňáková</dtt:Prijmeni>
+<dtt:Datum_narozeni>1978-07-09</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2015-01-03" dod="2001-09-10">
+<dtt:ID_adresy>22767343</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 9</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 9</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Slatiňanská</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>16/933</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>94</udt:Kod_pobvod>
+<udt:Kod_nobvod>175</udt:Kod_nobvod>
+<udt:Kod_casti_obce>43770</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>538213</udt:Kod_mestske_casti>
+<udt:PSC>19300</udt:PSC>
+<udt:Kod_ulice>494291</udt:Kod_ulice>
+<udt:Cislo_domovni>933</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>16</udt:Cislo_orientacni>
+<udt:Kod_adresy>22438793</udt:Kod_adresy>
+<udt:Kod_objektu>21477825</udt:Kod_objektu>
+<udt:PCD>2522567</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_konce>2014-11-18</dtt:Datum_konce>
+</dtt:Clenstvi>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2001-02-01</dtt:Datum_zacatku>
+<dtt:Datum_konce>2014-11-18</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2015-01-03" dod="2001-09-10">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Martin</dtt:Jmeno>
+<dtt:Prijmeni>Třešňák</dtt:Prijmeni>
+<dtt:Datum_narozeni>1981-03-21</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2015-01-03" dod="2001-09-10">
+<dtt:ID_adresy>22767344</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 9</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 9</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Slatiňanská</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>16/933</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>94</udt:Kod_pobvod>
+<udt:Kod_nobvod>175</udt:Kod_nobvod>
+<udt:Kod_casti_obce>43770</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>538213</udt:Kod_mestske_casti>
+<udt:PSC>19300</udt:PSC>
+<udt:Kod_ulice>494291</udt:Kod_ulice>
+<udt:Cislo_domovni>933</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>16</udt:Cislo_orientacni>
+<udt:Kod_adresy>22438793</udt:Kod_adresy>
+<udt:Kod_objektu>21477825</udt:Kod_objektu>
+<udt:PCD>2522567</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Clenstvi>
+<dtt:Datum_konce>2014-11-18</dtt:Datum_konce>
+</dtt:Clenstvi>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2001-02-01</dtt:Datum_zacatku>
+<dtt:Datum_konce>2014-11-18</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2016-11-04" dod="2001-09-10">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>předseda</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Titul_pred>Mgr.</dtt:Titul_pred>
+<dtt:Jmeno>Jana</dtt:Jmeno>
+<dtt:Prijmeni>Třešňáková</dtt:Prijmeni>
+<dtt:Datum_narozeni>1956-04-17</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2016-11-04" dod="2001-09-10">
+<dtt:ID_adresy>22767341</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 9</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 9</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Slatiňanská</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>16/933</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>94</udt:Kod_pobvod>
+<udt:Kod_nobvod>175</udt:Kod_nobvod>
+<udt:Kod_casti_obce>43770</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>538213</udt:Kod_mestske_casti>
+<udt:PSC>19300</udt:PSC>
+<udt:Kod_ulice>494291</udt:Kod_ulice>
+<udt:Cislo_domovni>933</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>16</udt:Cislo_orientacni>
+<udt:Kod_adresy>22438793</udt:Kod_adresy>
+<udt:Kod_objektu>21477825</udt:Kod_objektu>
+<udt:PCD>2522567</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_zacatku>2001-02-01</dtt:Datum_zacatku>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2001-09-10" dod="1998-12-30">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen dozorčí rady</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Hana</dtt:Jmeno>
+<dtt:Prijmeni>Brzobohatá</dtt:Prijmeni>
+<dtt:Datum_narozeni>1955-08-16</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2001-09-10" dod="1998-12-30">
+<dtt:ID_adresy>22767339</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 3</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 3</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Vinohradská</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>134</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>35</udt:Kod_pobvod>
+<udt:Kod_nobvod>35</udt:Kod_nobvod>
+<udt:Kod_casti_obce>490229</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500097</udt:Kod_mestske_casti>
+<udt:PSC>13000</udt:PSC>
+<udt:Kod_ulice>477869</udt:Kod_ulice>
+<udt:Cislo_domovni>1784</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>134</udt:Cislo_orientacni>
+<udt:Kod_adresy>21762805</udt:Kod_adresy>
+<udt:Kod_objektu>21720894</udt:Kod_objektu>
+<udt:PCD>2456939</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_konce>2001-02-01</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2001-09-10" dod="1997-02-19">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Funkce>člen</dtt:Funkce>
+<dtt:Fyzicka_osoba>
+<dtt:Titul_pred>Ing.</dtt:Titul_pred>
+<dtt:Jmeno>Vladimír</dtt:Jmeno>
+<dtt:Prijmeni>Bílý</dtt:Prijmeni>
+<dtt:Datum_narozeni>1948-10-07</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2001-09-10" dod="1997-02-19">
+<dtt:ID_adresy>22767340</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 4</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 4</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Za mlýnem</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>1562</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>43</udt:Kod_pobvod>
+<udt:Kod_nobvod>43</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400203</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500119</udt:Kod_mestske_casti>
+<udt:PSC>14700</udt:PSC>
+<udt:Kod_ulice>479039</udt:Kod_ulice>
+<udt:Cislo_domovni>1562</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>25</udt:Cislo_orientacni>
+<udt:Kod_adresy>21812748</udt:Kod_adresy>
+<udt:Kod_objektu>21815321</udt:Kod_objektu>
+<udt:PCD>3493331</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_konce>2001-02-01</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="1997-02-19" dod="1996-01-02">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Jana</dtt:Jmeno>
+<dtt:Prijmeni>Coubalová</dtt:Prijmeni>
+<dtt:Bydliste ddo="1997-02-19" dod="1996-01-02">
+<dtt:ID_adresy>22767336</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Praha 4 - Modřany</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Petržílkova</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>3309</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>51</udt:Kod_pobvod>
+<udt:Kod_nobvod>132</udt:Kod_nobvod>
+<udt:Kod_casti_obce>490172</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>539694</udt:Kod_mestske_casti>
+<udt:PSC>15800</udt:PSC>
+<udt:Kod_ulice>503541</udt:Kod_ulice>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="1998-12-30" dod="1996-01-02">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Helena</dtt:Jmeno>
+<dtt:Prijmeni>Boda</dtt:Prijmeni>
+<dtt:Bydliste ddo="1998-12-30" dod="1996-01-02">
+<dtt:ID_adresy>22767337</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 5</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 5</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Pod Šmukýřkou</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>1078</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>51</udt:Kod_pobvod>
+<udt:Kod_nobvod>51</udt:Kod_nobvod>
+<udt:Kod_casti_obce>400319</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500143</udt:Kod_mestske_casti>
+<udt:PSC>15000</udt:PSC>
+<udt:Kod_ulice>485764</udt:Kod_ulice>
+<udt:Cislo_domovni>1078</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>8</udt:Cislo_orientacni>
+<udt:Kod_adresy>22029427</udt:Kod_adresy>
+<udt:Kod_objektu>21951217</udt:Kod_objektu>
+<udt:PCD>3495268</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Clen_DR ddo="2001-09-10" dod="1996-01-02">
+<dtt:Clen>
+<dtt:Kod_angm>4</dtt:Kod_angm>
+<dtt:Fyzicka_osoba>
+<dtt:Jmeno>Drahomír</dtt:Jmeno>
+<dtt:Prijmeni>Brzobohatý</dtt:Prijmeni>
+<dtt:Bydliste ddo="2001-09-10" dod="1996-01-02">
+<dtt:ID_adresy>22767338</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Praha 3</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Praha 3</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Vinohradská</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>134</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>35</udt:Kod_pobvod>
+<udt:Kod_nobvod>35</udt:Kod_nobvod>
+<udt:Kod_casti_obce>490229</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500097</udt:Kod_mestske_casti>
+<udt:PSC>13000</udt:PSC>
+<udt:Kod_ulice>477869</udt:Kod_ulice>
+<udt:Cislo_domovni>1784</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>134</udt:Cislo_orientacni>
+<udt:Kod_adresy>21762805</udt:Kod_adresy>
+<udt:Kod_objektu>21720894</udt:Kod_objektu>
+<udt:PCD>2456939</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+<dtt:Ve_funkci>
+<dtt:Datum_konce>2001-02-01</dtt:Datum_konce>
+</dtt:Ve_funkci>
+</dtt:Clen>
+</dtt:Clen_DR>
+<dtt:Text dod="2015-01-03">
+funkční období 10 let
+</dtt:Text>
+</dtt:Dozorci_rada>
+<dtt:Akcionari>
+<dtt:Akcionar dod="2013-03-13">
+<dtt:Kod_angm>5</dtt:Kod_angm>
+<dtt:Pravnicka_osoba dod="2013-03-13">
+<dtt:ICO>26479834</dtt:ICO>
+<dtt:Obchodni_firma>Bledule, družstvo</dtt:Obchodni_firma>
+<dtt:Nazev_PF>Družstvo</dtt:Nazev_PF>
+<dtt:Sidlo dod="2013-03-13">
+<dtt:ID_adresy>22767346</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_obce>Praha 1</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Maltézské nám.</dtt:Nazev_ulice>
+<dtt:Cislo_domovni>537</dtt:Cislo_domovni>
+<dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+<dtt:Cislo_orientacni>4</dtt:Cislo_orientacni>
+<dtt:PSC>11800</dtt:PSC>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>19</udt:Kod_oblasti>
+<udt:Kod_kraje>19</udt:Kod_kraje>
+<udt:Kod_okresu>3100</udt:Kod_okresu>
+<udt:Kod_obce>554782</udt:Kod_obce>
+<udt:Kod_pobvod>19</udt:Kod_pobvod>
+<udt:Kod_nobvod>19</udt:Kod_nobvod>
+<udt:Kod_casti_obce>490121</udt:Kod_casti_obce>
+<udt:Kod_mestske_casti>500054</udt:Kod_mestske_casti>
+<udt:PSC>11800</udt:PSC>
+<udt:Kod_ulice>455628</udt:Kod_ulice>
+<udt:Cislo_domovni>537</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>4</udt:Cislo_orientacni>
+<udt:Kod_adresy>21700290</udt:Kod_adresy>
+<udt:Kod_objektu>21666181</udt:Kod_objektu>
+<udt:PCD>2434738</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Sidlo>
+</dtt:Pravnicka_osoba>
+</dtt:Akcionar>
+<dtt:Akcionar ddo="2013-03-13" dod="2001-09-10">
+<dtt:Kod_angm>5</dtt:Kod_angm>
+<dtt:Fyzicka_osoba>
+<dtt:Titul_pred>Ing.</dtt:Titul_pred>
+<dtt:Jmeno>Radim</dtt:Jmeno>
+<dtt:Prijmeni>Třešňák</dtt:Prijmeni>
+<dtt:Datum_narozeni>1954-07-08</dtt:Datum_narozeni>
+<dtt:Bydliste ddo="2013-03-13" dod="2001-09-10">
+<dtt:ID_adresy>22767345</dtt:ID_adresy>
+<dtt:Kod_statu>203</dtt:Kod_statu>
+<dtt:Nazev_statu>Česká republika</dtt:Nazev_statu>
+<dtt:Nazev_okresu>Nymburk</dtt:Nazev_okresu>
+<dtt:Nazev_obce>Poděbrady</dtt:Nazev_obce>
+<dtt:Nazev_ulice>Lidická</dtt:Nazev_ulice>
+<dtt:Cislo_do_adresy>25</dtt:Cislo_do_adresy>
+<dtt:Adresa_UIR>
+<udt:Kod_oblasti>27</udt:Kod_oblasti>
+<udt:Kod_kraje>27</udt:Kod_kraje>
+<udt:Kod_okresu>3208</udt:Kod_okresu>
+<udt:Kod_obce>537683</udt:Kod_obce>
+<udt:Kod_casti_obce>402931</udt:Kod_casti_obce>
+<udt:PSC>29001</udt:PSC>
+<udt:Kod_ulice>320714</udt:Kod_ulice>
+<udt:Cislo_domovni>792</udt:Cislo_domovni>
+<udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+<udt:Cislo_orientacni>25</udt:Cislo_orientacni>
+<udt:Kod_adresy>18322433</udt:Kod_adresy>
+<udt:Kod_objektu>18184421</udt:Kod_objektu>
+<udt:PCD>1968459</udt:PCD>
+</dtt:Adresa_UIR>
+</dtt:Bydliste>
+</dtt:Fyzicka_osoba>
+</dtt:Akcionar>
+</dtt:Akcionari>
+</dtt:Vypis_OR>
+</are:Odpoved>
+</are:Ares_odpovedi>
